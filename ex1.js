@@ -11,6 +11,5 @@ for (let indexCol = 1; indexCol <= userCols; indexCol++) {
   cols.push(rows);
   rows = [];
 }
-
 console.log("Matriz: ");
 cols.forEach((line) => console.log(line));
